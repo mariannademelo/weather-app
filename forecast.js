@@ -14,6 +14,7 @@ const getForecast = async (id) => {
     const query = `${id}?apikey=${token}&metric=true` 
     const response = await fetch(baseUri + query)
     const data = await response.json()
+    console.log(data) //small change
     return data   
 }
 

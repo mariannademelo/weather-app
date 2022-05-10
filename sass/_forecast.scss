@@ -1,0 +1,74 @@
+.forecast {
+  color: $text-color;
+  height: inherit;
+  width: 60%;
+  padding: 20px 27px;
+  background: rgba(177, 177, 177, 0.1);
+  backdrop-filter: blur(5px);
+  border-radius: 0 12px 12px 0;
+
+  &__details {
+    height: 231px;
+    @include center(initial, column, space-between);
+  }
+  
+  &__first {
+      
+    ul {
+      height: 14vh;
+      font-weight: 500;
+      text-transform: uppercase;
+      margin-top: 12px;
+      @include center(initial, column, space-between);
+    }
+
+    li {
+      @include center(initial, flex, space-between);
+    }
+  }
+
+  &__precip {
+    text-transform: initial;
+  }
+
+  &__sec {
+
+    ul {
+      font-size: 12px;
+      @include center(initial, flex, space-between);
+    }
+
+    li {
+      height: 110px;
+      width: 55px;
+      border-radius: 10px;
+      @include center(center, column, center);
+    }
+  }
+
+  &__form {
+    border-bottom: 1.5px solid rgba(253, 253, 253, 0.2);
+    @include center(initial, flex, space-between);
+  }
+
+  &__submit {
+    background: transparent;
+    border: 0;
+    color: $text-color;
+  }
+
+  &__input {
+    background: transparent;
+    border: 0;
+    color: $text-color;
+    font-style: italic;
+    outline: none;
+    padding: 10px 24px;
+    width: 100%;
+  }
+}
+
+::placeholder {
+  color: $text-color;
+  font-style: italic;
+}

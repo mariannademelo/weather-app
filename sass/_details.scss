@@ -1,0 +1,28 @@
+.details {
+    background: rgba(177, 177, 177, 0.1);
+    backdrop-filter: blur(16px);
+    border-radius: 12px 0 0 12px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: 40%;
+    justify-content: space-between;
+
+    &__day {
+        font-size: 25px;
+    }
+
+    &__date {
+        font-weight: 300;
+    }
+
+    &__degree{
+        font-size: 70px;
+    }
+
+    &__spec {
+        font-size: 22px;
+        width: 236px;
+    }
+}

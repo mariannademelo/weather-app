@@ -1,0 +1,13 @@
+@import 'config'; 
+@import 'details'; 
+@import 'forecast'; 
+@import 'weather'; 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Roboto Mono", monospace;
+    height: 100vh;
+    background-image: url("../back-night.gif");
+    background-size: cover;
+    @include center(center, column, center)
+}

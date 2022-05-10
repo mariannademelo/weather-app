@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <title>your weather!</title>
+</head>
+<body>
+    
+    <main class="weather">
+        <section class="weather__details details">
+            <div class="details__first">
+                <h3 class="details__day">...</h3>
+                <h4 class="details__date">...</h4>
+            </div>
+            <div class="details__sec">
+                <h2 class="details__degree">...</h2>
+                <h3 class="details__spec">...</h3>
+            </div>
+        </section>
+        <section class="forecast">
+            <div>
+                <form class="forecast__form">
+                    <button class="forecast__submit" type="submit"><i class="fas fa-search"></i></button>
+                    <input data-element="input" class="forecast__input" type="text" name="forecast" placeholder="your weather">
+                </form>
+            </div>
+            <div class="forecast__details">
+                <div class="forecast__first">
+                    <ul>
+                        <li>
+                            <p>Precipitação</p>
+                            <p class="forecast__precip">...</p>
+                        </li>
+                        <li>
+                            <p>Umidade</p>
+                            <p class="forecast__precip">...</p>
+                        </li>
+                        <li>
+                            <p>Vento</p>
+                            <p class="forecast__precip">...</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="forecast__sec">
+                    <ul>
+                        <li>
+                            <p>...</p>
+                            <p>...</p>
+                        </li>
+                        <li>
+                            <p>...</p>
+                            <p>...</p>
+                        </li>
+                        <li>
+                            <p>...</p>
+                            <p>...</p>
+                        </li>
+                        <li>
+                            <p>...</p>
+                            <p>...</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="forecast.js" ></script>
+    <script src="main.js" ></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+@mixin center($align, $direction, $justify) {
+    align-items: $align;
+    display: flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+$text-color: rgba(255, 255, 255, 0.8);

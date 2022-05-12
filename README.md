@@ -1,0 +1,4 @@
+# weather-app
+Using async and await JavaScript to fetch data from the AccuWeather API. <br>
+In this aplication with a basic UI and a backgroung that changes depending on your local time, <br>
+you are able to find your current weather and the week forecast :) 

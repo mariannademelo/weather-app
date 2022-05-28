@@ -1,4 +1,4 @@
-const token = "WrAi0jdxDvRZwAZVBfUrFS9Ik7Lrh5iI"
+const token = token_here;
 
 const getWeather = async (id) => {
     const baseUri = "http://dataservice.accuweather.com/currentconditions/v1/"
